@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>World Cloud MeToo</title>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="bower_components/d3/d3.js"></script>
+        <script type="text/javascript" src="bower_components/d3-cloud/d3.layout.cloud.js"></script>
+        <script type="text/javascript" src="tags.js"></script>     
+        <style>    
+            div.tooltip {	
+                position: absolute;			
+                text-align: center;								
+                padding: 2px;				
+                font: 14px sans-serif;		
+                background: rgba(211, 211, 211, 0.733);	
+                border: 0px;		
+                border-radius: 8px;			
+                pointer-events: none;			
+            }  
+            div.tooltip .tooltiptext {
+                visibility: hidden;
+                width: 150px;
+                color: #fff;
+                text-align: center;
+                border-radius: 6px;
+                padding: 20px 50px; 
+                position: absolute;
+                z-index: 1;     
+            }        
+        </style>
+    </head>
+    <body>
+        <div id="vis"></div>
+        <script type="text/javascript" src="word-cloud.js"></script>
+    </body>
+</html>
